@@ -94,6 +94,7 @@ export class AppComponent {
           break;
         } else {
           iterator.quantity -= 1;
+          break;
         }
       }
     }

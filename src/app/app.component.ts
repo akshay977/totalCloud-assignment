@@ -88,9 +88,13 @@ export class AppComponent {
   removeItem() {
     for (const iterator of this.cart) {
       if (iterator.name === this.cartItemClicked) {
-        const index = this.cart.indexOf(iterator);
-        this.cart.splice(index, 1);
-        break;
+        if (iterator.quantity === 1) {
+          const index = this.cart.indexOf(iterator);
+          this.cart.splice(index, 1);
+          break;
+        } else {
+          iterator.quantity -= 1;
+        }
       }
     }
   }

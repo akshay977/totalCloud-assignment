@@ -1,0 +1,62 @@
+<div class="leftframe">
+  <p class="logo">FOOD.<span>LOGO</span></p>
+
+  <p class="time">Have no time to prepare food ?</p>
+  <p class="leaving">Choose one of our plans, enter delivery time and enjoy delicious food without leaving your home!
+  </p>
+
+  <p class="order">Order Food</p>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-dribbble"></i>
+  <i class="fa fa-instagram"></i>
+</div>
+
+<div class="rightframe">
+
+  <a href="#" class="about">ABOUT</a>
+  <a href="#" class="our">OUR FOOD</a>
+  <a href="#" class="plans">PLANS</a>
+  <a href="#" class="us">CONTACT US</a>
+  <div class="symbol">
+    <div class="dot"></div>
+  </div>
+</div>
+
+<div class="menu-background-image">
+  <div class="translucent">
+    <div class="available">
+      <p class="heading1">Available Options</p>
+      <div class="entireList">
+        <div [ngClass]="(itemAvailable === item.name)?'itemSelected':'Item'" *ngFor="let item of availableFood"
+          (click)="selectItem(name.textContent)">
+          <img class="itemPic" src="{{item.imageURL}}" alt="item.name">
+          <p #name class="name">{{item.name}}</p>
+          <p class="price">${{item.price}}</p>
+        </div>
+      </div>
+
+    </div>
+    <p [ngClass]="(buttonActivate)?'buttonActive':'button'" (click)="addItem()">Add to cart</p>
+    <p [ngClass]="removeActivate?'buttonActive':'button'" (click)="removeItem()" class="button remove">Remove from
+      cart</p>
+    <div class="entirecart">
+      <p *ngIf="cart.length === 0" class="empty">Your cart is empty</p>
+      <p *ngIf="cart.length === 0" class="select">Select an item and click "Add to cart"</p>
+      <p *ngIf="cart.length > 0" class="heading2">Your Cart</p>
+      <div class="entireList">
+        <div [ngClass]="(cartItemClicked === cartitem.name)?'itemSelected':'Item'" *ngFor="let cartitem of cart"
+          (click)="selectCartItem(toRemove.textContent)">
+          <img class="itemPic" src="{{cartitem.imageURL}}" alt="cartitem.name">
+          <p #toRemove class="name">{{cartitem.name}}</p>
+          <p class="quantity">Quantity:{{cartitem.quantity}}</p>
+          <p class="price">${{cartitem.price}}</p>
+        </div>
+      </div>
+
+    </div>
+    <div *ngIf="totalAmount > 0" class="checkout">
+      <p class="total">Total Amount</p>
+      <p class="amount">${{totalAmount}}</p>
+    </div>
+  </div>
+</div>

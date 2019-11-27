@@ -1,0 +1,335 @@
+* {
+  position: absolute;
+}
+
+.logo {
+  top: 4rem;
+  left: 8rem;
+  width: 263px;
+  height: 43px;
+  text-align: left;
+  font: Bold 43px/68px Semplicità sans-serif;
+  letter-spacing: 0;
+  opacity: 1;
+}
+
+.logo span {
+  color: #F8A22F;
+}
+
+.time {
+  width: 375px;
+  height: 100px;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 4rem;
+  letter-spacing: 0;
+  color: #242424;
+  top: 18rem;
+  left: 8rem;
+}
+
+.time span {
+  color: #F8A22F;
+  top: 10rem;
+}
+
+.leaving {
+  width: 440px;
+  height: 77px;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #242424;
+  opacity: 0.5;
+  top: 30rem;
+  left: 8rem;
+}
+
+.order {
+  width: 18rem;
+  height: 5rem;
+  background: #F8A22F 0% 0% no-repeat padding-box;
+  border-radius: 32px;
+  opacity: 1;
+  text-align: center;
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 2rem;
+  letter-spacing: 0;
+  opacity: 1;
+  top: 40rem;
+  left: 14rem;
+  padding-top: 1rem;
+}
+
+.rightframe {
+  display: inline-block;
+  background: transparent url(https://news.ucdenver.edu/wp-content/uploads/2019/11/Food-Pantry-Cropped.jpg) 0% 0% no-repeat padding-box;
+  left: 520px;
+  width: 743px;
+  height: 645px;
+  opacity: 1;
+}
+
+.rightframe a {
+  top: 4rem;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 17px;
+  letter-spacing: 0;
+  color: whitesmoke;
+  opacity: 1;
+}
+
+.rightframe .about {
+  left: 6rem;
+}
+
+.rightframe .our {
+  left: 20rem;
+}
+
+.rightframe .plans {
+  left: 38rem;
+}
+
+.rightframe .us {
+  top: 3rem;
+  left: 50rem;
+  width: 18rem;
+  height: 5rem;
+  background: #F8A22F 0% 0% no-repeat padding-box;
+  border-radius: 32px;
+  opacity: 1;
+  text-align: center;
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 17px;
+  letter-spacing: 0;
+  opacity: 1;
+  padding-top: 11px;
+}
+
+.fa-twitter {
+  top: 47rem;
+  width: 6rem;
+  height: 6rem;
+  left: 14rem;
+  font-size: 4rem;
+  color: gray;
+}
+
+.fa-dribbble {
+  top: 47rem;
+  width: 6rem;
+  height: 6rem;
+  left: 21rem;
+  font-size: 4rem;
+  color: gray;
+}
+
+.fa-instagram {
+  top: 47rem;
+  width: 6rem;
+  height: 6rem;
+  left: 28rem;
+  font-size: 4rem;
+  color: gray;
+}
+
+.rightframe .symbol {
+  border: 3px solid #F8A22F;
+  border-radius: 28px;
+  opacity: 1;
+  width: 3rem;
+  height: 10re;
+  height: 5rem;
+  bottom: 20px;
+  left: 3rem;
+}
+
+.rightframe .symbol .dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  bottom: 29px;
+  left: 10px;
+  background: #F8A22F 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.menu-background-image {
+  top: 645px;
+  width: 1263px;
+  height: 650px;
+  background: transparent url('resizedimage2.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.translucent {
+  width: 1263px;
+  height: 650px;
+  background: rgba(9, 12, 56, 0.9) 0% 0% no-repeat padding-box;
+}
+
+.available {
+  background-color: rgba(255, 255, 255, 1);
+  width: 400px;
+  height: 400px;
+  top: 150px;
+  left: 100px;
+}
+
+.heading1 {
+  top: 40px;
+  left: 140px;
+  font-size: x-large;
+}
+
+.heading2 {
+  top: 40px;
+  left: 150px;
+  font-size: x-large;
+}
+
+.button {
+  width: 18rem;
+  height: 5rem;
+  background: #F8A22F 0% 0% no-repeat padding-box;
+  border-radius: 32px;
+  opacity: 1;
+  text-align: center;
+  font-family: Segoe UI;
+  color: #FFFFFF;
+  font-size: 2rem;
+  letter-spacing: 0;
+  opacity: 1;
+  padding-top: 1rem;
+  top: 300px;
+  left: 550px;
+  opacity: 0.5;
+  font-size: medium;
+}
+
+.buttonActive {
+  width: 18rem;
+  height: 5rem;
+  background: #F8A22F 0% 0% no-repeat padding-box;
+  border-radius: 32px;
+  opacity: 1;
+  text-align: center;
+  font-family: Segoe UI;
+  color: #FFFFFF;
+  font-size: 2rem;
+  letter-spacing: 0;
+  opacity: 1;
+  padding-top: 1rem;
+  top: 300px;
+  left: 550px;
+  opacity: 1;
+  font-size: medium;
+}
+
+.remove {
+  top: 410px;
+  left: 550px;
+}
+
+.entirecart {
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 400px;
+  top: 150px;
+  left: 770px;
+  overflow: auto;
+}
+
+.empty {
+  top: 150px;
+  left: 110px;
+  font-size: x-large;
+  color: gray;
+}
+
+.select {
+  top: 190px;
+  left: 60px;
+  font-size: large;
+  font-style: italic;
+  font-weight: lighter;
+  color: rgb(182, 182, 182);
+}
+
+.entireList {
+  position: static;
+  margin-top: 90px;
+  width: 400px;
+}
+
+.Item {
+  position: static;
+  font-size: 20px;
+  width: 400px;
+  padding: 8px;
+}
+
+.itemSelected {
+  position: static;
+  font-size: 20px;
+  width: 400px;
+  padding: 8px;
+  background-color: #F8A22F;
+}
+
+.itemPic {
+  position: static;
+  width: 60px;
+  height: 60px;
+}
+
+.name {
+  display: inline-block;
+  position: static;
+  margin-left: 15px;
+}
+
+.quantity {
+  display: inline-block;
+  position: static;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.price {
+  float: right;
+  display: block;
+  position: static;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.checkout {
+  font-size: 20px;
+  background-color: #F8A22F;
+  width: 400px;
+  padding: 8px;
+  height: 60px;
+  bottom: 40px;
+  right: 93px;
+}
+
+.amount {
+  position: static;
+  display: block;
+  text-align: right;
+  margin-top: 6px;
+  float: right;
+}
+
+.total {
+  position: static;
+  display: inline-block;
+  margin-top: 6px;
+}

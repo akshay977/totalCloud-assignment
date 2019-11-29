@@ -67,7 +67,7 @@
 .rightframe {
   display: inline-block;
   background: transparent url(https://news.ucdenver.edu/wp-content/uploads/2019/11/Food-Pantry-Cropped.jpg) 0% 0% no-repeat padding-box;
-  left: 520px;
+  right: 0px;
   width: 743px;
   height: 645px;
   opacity: 1;
@@ -332,4 +332,19 @@
   position: static;
   display: inline-block;
   margin-top: 6px;
+}
+
+@media screen and (min-width: 1336px) {
+  .rightframe {
+    right: 0px;
+  }
+
+  .menu-background-image,
+  .translucent {
+    width: 1366px;
+  }
+
+  .entirecart {
+    left: 860px;
+  }
 }
